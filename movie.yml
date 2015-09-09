@@ -12,4 +12,4 @@ ribbon:
   eureka:
     enabled: true
 
-foo: 2015
+foo: 2016
