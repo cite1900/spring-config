@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+eureka:
+  instance:
+    hostname: configserver
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+		  uri: https://github.com/cite1900/spring-config
+          basedir: target/config
