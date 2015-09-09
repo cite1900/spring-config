@@ -11,5 +11,5 @@ eureka:
 ribbon:
   eureka:
     enabled: true
-
-foo: 2018
+foo:123
+#foo: '{cipher}abc123'
