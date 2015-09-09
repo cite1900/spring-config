@@ -12,4 +12,4 @@ ribbon:
   eureka:
     enabled: true
 
-foo: chenshany
+foo: 2015
